@@ -11,6 +11,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/accounts")
+@CrossOrigin("http://localhost:3000")
 public class AccountController {
     AccountServiceImpl accountService;
 

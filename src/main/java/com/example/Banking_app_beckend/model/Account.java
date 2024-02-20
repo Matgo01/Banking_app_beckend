@@ -6,6 +6,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+
 @Entity
 @Table(name="accounts")
 @Getter
@@ -19,4 +20,9 @@ public class Account {
     @Column(name ="account_holder_name" )
     private String accountHolderName;
     private double belance;
+
+
+
+
+
 }
